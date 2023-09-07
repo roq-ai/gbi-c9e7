@@ -1,0 +1,2472 @@
+[
+  {
+    "course": [
+      {
+        "id": "c1114748-d330-4b57-8c39-6e2677e79484",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming with Python",
+        "status": "Active",
+        "created_at": "2023-09-06T12:38:35.176Z",
+        "updated_at": "2023-09-07T06:43:08.204Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "631d4b1d-eb28-40ac-a317-5ec178f197d2",
+        "name": "Data Science Fundamentals",
+        "description": "Explore the field of data science and its applications",
+        "status": "Inactive",
+        "created_at": "2023-09-07T07:43:50.543Z",
+        "updated_at": "2023-09-07T05:44:26.158Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "049324a6-f37e-4dc5-b64b-9d50c4fb60a9",
+        "name": "Web Development Bootcamp",
+        "description": "Become a full-stack web developer in just 12 weeks",
+        "status": "Pending",
+        "created_at": "2023-09-07T08:18:43.338Z",
+        "updated_at": "2023-09-06T11:49:13.005Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17120825-d1f8-4dcd-a5f2-0cf106708b77",
+        "name": "Marketing Strategies",
+        "description": "Discover effective marketing strategies for business success",
+        "status": "Completed",
+        "created_at": "2023-09-06T19:37:31.602Z",
+        "updated_at": "2023-09-06T17:56:20.569Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd6666d2-6f21-4921-b2f2-d9792de85488",
+        "name": "Financial Management",
+        "description": "Master the principles of financial management",
+        "status": "Enrolled",
+        "created_at": "2023-09-07T00:23:57.328Z",
+        "updated_at": "2023-09-06T21:08:27.508Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "zoom_meeting": [
+      {
+        "id": "257e2197-d8f1-4fa9-b26f-12e4d7856d04",
+        "meeting_link": "https://zoom.us/j/123456789",
+        "meeting_date": "2023-09-06T13:17:30.010Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-06T12:04:26.322Z",
+        "updated_at": "2023-09-07T02:13:35.314Z",
+        "course_id": "631d4b1d-eb28-40ac-a317-5ec178f197d2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2da6bdff-3de9-4775-9658-9c2c3a91a12c",
+        "meeting_link": "https://zoom.us/j/987654321",
+        "meeting_date": "2023-09-06T16:57:23.881Z",
+        "status": "Ongoing",
+        "created_at": "2023-09-07T04:45:02.193Z",
+        "updated_at": "2023-09-06T17:41:55.970Z",
+        "course_id": "c1114748-d330-4b57-8c39-6e2677e79484",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92e3bd5e-ac58-47e0-a542-ef2b034d3cf9",
+        "meeting_link": "https://zoom.us/j/567891234",
+        "meeting_date": "2023-09-07T01:54:38.438Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-07T07:32:42.622Z",
+        "updated_at": "2023-09-06T15:31:23.848Z",
+        "course_id": "049324a6-f37e-4dc5-b64b-9d50c4fb60a9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f52680ff-37d9-4f2a-8040-e310f029a721",
+        "meeting_link": "https://zoom.us/j/432198765",
+        "meeting_date": "2023-09-07T04:35:36.814Z",
+        "status": "Completed",
+        "created_at": "2023-09-06T13:01:00.993Z",
+        "updated_at": "2023-09-06T19:51:01.865Z",
+        "course_id": "fd6666d2-6f21-4921-b2f2-d9792de85488",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "718973ad-221e-4ad8-8da9-abfeefec615a",
+        "meeting_link": "https://zoom.us/j/876543219",
+        "meeting_date": "2023-09-06T12:32:58.931Z",
+        "status": "Pending",
+        "created_at": "2023-09-06T13:51:12.201Z",
+        "updated_at": "2023-09-06T23:51:55.079Z",
+        "course_id": "049324a6-f37e-4dc5-b64b-9d50c4fb60a9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "7184551f-69ac-4edd-b469-ee64ea2bb86d",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "status": "Active",
+        "created_at": "2023-09-06T19:10:07.650Z",
+        "updated_at": "2023-09-07T01:03:11.036Z",
+        "course_id": "c1114748-d330-4b57-8c39-6e2677e79484"
+      },
+      {
+        "id": "e84b8f9d-2293-4e73-b048-4ffc82c31da9",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "status": "Inactive",
+        "created_at": "2023-09-06T15:40:39.838Z",
+        "updated_at": "2023-09-07T02:58:26.902Z",
+        "course_id": "17120825-d1f8-4dcd-a5f2-0cf106708b77"
+      },
+      {
+        "id": "8097a387-529f-4ac8-a9d9-5eaacbe5dc17",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "status": "Pending",
+        "created_at": "2023-09-07T06:55:20.026Z",
+        "updated_at": "2023-09-06T16:58:35.950Z",
+        "course_id": "049324a6-f37e-4dc5-b64b-9d50c4fb60a9"
+      },
+      {
+        "id": "bcba32ad-9e34-4216-8988-cfff4be84b17",
+        "first_name": "Matthew",
+        "last_name": "Davis",
+        "status": "Enrolled",
+        "created_at": "2023-09-07T02:52:36.867Z",
+        "updated_at": "2023-09-07T00:11:16.047Z",
+        "course_id": "049324a6-f37e-4dc5-b64b-9d50c4fb60a9"
+      },
+      {
+        "id": "43660af5-fc38-49df-98ec-a9dc6d1c3c47",
+        "first_name": "Sophia",
+        "last_name": "Miller",
+        "status": "Graduated",
+        "created_at": "2023-09-06T16:38:08.311Z",
+        "updated_at": "2023-09-06T17:31:50.680Z",
+        "course_id": "631d4b1d-eb28-40ac-a317-5ec178f197d2"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "90d3b77a-04de-4ed7-b722-d3a1a005351f",
+        "date": "2023-09-06T21:02:35.627Z",
+        "status": "Present",
+        "created_at": "2023-09-06T16:04:42.725Z",
+        "updated_at": "2023-09-06T18:26:28.249Z",
+        "course_id": "17120825-d1f8-4dcd-a5f2-0cf106708b77",
+        "student_id": "7184551f-69ac-4edd-b469-ee64ea2bb86d"
+      },
+      {
+        "id": "151a460c-0055-4eea-8155-cc74d14e2b61",
+        "date": "2023-09-06T14:11:19.261Z",
+        "status": "Absent",
+        "created_at": "2023-09-07T06:15:56.554Z",
+        "updated_at": "2023-09-07T02:54:21.237Z",
+        "course_id": "c1114748-d330-4b57-8c39-6e2677e79484",
+        "student_id": "7184551f-69ac-4edd-b469-ee64ea2bb86d"
+      },
+      {
+        "id": "5c43f8cd-20ce-4b2f-8e0d-0f3e3face927",
+        "date": "2023-09-06T12:41:51.887Z",
+        "status": "Late",
+        "created_at": "2023-09-06T09:13:10.806Z",
+        "updated_at": "2023-09-07T03:01:26.723Z",
+        "course_id": "fd6666d2-6f21-4921-b2f2-d9792de85488",
+        "student_id": "43660af5-fc38-49df-98ec-a9dc6d1c3c47"
+      },
+      {
+        "id": "30f39ad9-ecb5-4c52-9d9b-1081afa9adef",
+        "date": "2023-09-07T03:04:31.227Z",
+        "status": "Excused",
+        "created_at": "2023-09-06T17:47:37.264Z",
+        "updated_at": "2023-09-06T17:05:21.083Z",
+        "course_id": "17120825-d1f8-4dcd-a5f2-0cf106708b77",
+        "student_id": "bcba32ad-9e34-4216-8988-cfff4be84b17"
+      },
+      {
+        "id": "4b7e5407-b79a-41b7-97d8-d8fcd2835ad4",
+        "date": "2023-09-07T08:18:49.125Z",
+        "status": "Tardy",
+        "created_at": "2023-09-06T18:01:43.325Z",
+        "updated_at": "2023-09-06T20:57:57.927Z",
+        "course_id": "fd6666d2-6f21-4921-b2f2-d9792de85488",
+        "student_id": "43660af5-fc38-49df-98ec-a9dc6d1c3c47"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "84746abf-446d-45b0-ae9d-fb8735a9d035",
+        "email": "Dashawn12@hotmail.com",
+        "firstName": "Evelyn",
+        "lastName": "Koch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/968.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "169feda8-7068-43f9-a24b-6068339eca2d",
+        "email": "Keanu.Goldner-Schiller16@yahoo.com",
+        "firstName": "Graham",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/804.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "92c6b978-d709-4a77-954d-4987ade8f33b",
+        "email": "Edna94@hotmail.com",
+        "firstName": "Leopoldo",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12080309",
+        "tenantId": null
+      },
+      {
+        "reference": "30cd382b-b316-4479-bd78-d29454a5948c",
+        "email": "Antonio_Kuphal@yahoo.com",
+        "firstName": "Frances",
+        "lastName": "Hilpert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/353.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ac3098f1-5ba6-45f6-b444-e3265487cfae",
+        "email": "Harmon_Dach67@hotmail.com",
+        "firstName": "Alexie",
+        "lastName": "Cassin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82652614",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "db439134-865b-4f2e-8375-391a20e9e1ca",
+        "name": "Introduction to Python Programming",
+        "description": "Learn the basics of Python programming language",
+        "status": "Open",
+        "created_at": "2023-09-06T10:44:48.748Z",
+        "updated_at": "2023-09-07T06:52:32.581Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "264076bd-6a5b-4acd-9dc9-0dd4aa2d8d46",
+        "name": "Web Development Fundamentals",
+        "description": "Build interactive websites using HTML, CSS, and JavaScript",
+        "status": "Closed",
+        "created_at": "2023-09-06T11:36:47.313Z",
+        "updated_at": "2023-09-07T06:20:34.070Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae22e9fb-9cfd-41b0-a09a-8cc2e1312252",
+        "name": "Data Science for Beginners",
+        "description": "Explore the world of data science and analytics",
+        "status": "Upcoming",
+        "created_at": "2023-09-06T21:20:21.570Z",
+        "updated_at": "2023-09-07T01:03:30.493Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3d38b924-b583-40bd-8043-7f807fa6b40f",
+        "name": "Digital Marketing Strategies",
+        "description": "Master the art of digital marketing and SEO",
+        "status": "In Progress",
+        "created_at": "2023-09-06T13:42:29.766Z",
+        "updated_at": "2023-09-07T04:28:25.488Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7696a148-2314-4b5d-b377-da0931222604",
+        "name": "Project Management Essentials",
+        "description": "Develop essential skills for successful project management",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T22:14:13.529Z",
+        "updated_at": "2023-09-06T21:59:11.764Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "zoom_meeting": [
+      {
+        "id": "5bbb7683-640e-4370-bbc0-f41df9b1ba07",
+        "meeting_link": "https://zoom.us/j/1234567890",
+        "meeting_date": "2023-09-06T17:07:35.049Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-07T03:35:59.740Z",
+        "updated_at": "2023-09-06T19:28:23.592Z",
+        "course_id": "7696a148-2314-4b5d-b377-da0931222604",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ad2e560-390d-4599-8b52-c4cae388d160",
+        "meeting_link": "https://zoom.us/j/0987654321",
+        "meeting_date": "2023-09-06T11:42:44.257Z",
+        "status": "Ongoing",
+        "created_at": "2023-09-06T20:44:46.339Z",
+        "updated_at": "2023-09-06T22:10:26.238Z",
+        "course_id": "db439134-865b-4f2e-8375-391a20e9e1ca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab23619b-3da3-4e62-968a-a3851e061ce9",
+        "meeting_link": "https://zoom.us/j/5678901234",
+        "meeting_date": "2023-09-06T17:53:44.122Z",
+        "status": "Finished",
+        "created_at": "2023-09-06T13:28:00.858Z",
+        "updated_at": "2023-09-06T23:08:38.932Z",
+        "course_id": "7696a148-2314-4b5d-b377-da0931222604",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "025a9baf-590b-48b8-8413-f3b78115db3a",
+        "meeting_link": "https://zoom.us/j/4321098765",
+        "meeting_date": "2023-09-06T15:38:42.506Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T22:52:57.090Z",
+        "updated_at": "2023-09-07T05:14:02.513Z",
+        "course_id": "db439134-865b-4f2e-8375-391a20e9e1ca",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f37ccec1-d3b0-46a8-a22a-bdffd97d006b",
+        "meeting_link": "https://zoom.us/j/9876543210",
+        "meeting_date": "2023-09-07T00:16:21.267Z",
+        "status": "Postponed",
+        "created_at": "2023-09-06T10:33:26.897Z",
+        "updated_at": "2023-09-06T19:12:49.938Z",
+        "course_id": "ae22e9fb-9cfd-41b0-a09a-8cc2e1312252",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "43a8b302-44bc-44d7-a3e0-431ddacc39f9",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "status": "Enrolled",
+        "created_at": "2023-09-06T15:37:43.065Z",
+        "updated_at": "2023-09-06T13:54:42.751Z",
+        "course_id": "db439134-865b-4f2e-8375-391a20e9e1ca"
+      },
+      {
+        "id": "dd51c49e-792f-4c09-8192-0fbd36246595",
+        "first_name": "Daniel",
+        "last_name": "Anderson",
+        "status": "Graduated",
+        "created_at": "2023-09-06T12:01:37.921Z",
+        "updated_at": "2023-09-06T19:11:32.906Z",
+        "course_id": "db439134-865b-4f2e-8375-391a20e9e1ca"
+      },
+      {
+        "id": "233829ca-938f-4321-b01a-057e98fa80cc",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "status": "On Leave",
+        "created_at": "2023-09-07T00:45:25.522Z",
+        "updated_at": "2023-09-06T23:05:20.149Z",
+        "course_id": "264076bd-6a5b-4acd-9dc9-0dd4aa2d8d46"
+      },
+      {
+        "id": "72edd2cc-c0bf-4621-b8f2-c0154aed5660",
+        "first_name": "Matthew",
+        "last_name": "Clark",
+        "status": "Suspended",
+        "created_at": "2023-09-07T07:43:45.700Z",
+        "updated_at": "2023-09-06T13:21:51.685Z",
+        "course_id": "db439134-865b-4f2e-8375-391a20e9e1ca"
+      },
+      {
+        "id": "15c21957-c59f-4211-ad5f-b3abd6a662f5",
+        "first_name": "Sophia",
+        "last_name": "Davis",
+        "status": "Withdrawn",
+        "created_at": "2023-09-07T07:37:55.151Z",
+        "updated_at": "2023-09-06T15:39:22.229Z",
+        "course_id": "7696a148-2314-4b5d-b377-da0931222604"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "c12eb1e4-de19-40a9-a31e-f8ce650e712e",
+        "date": "2023-09-07T00:37:40.504Z",
+        "status": "Present",
+        "created_at": "2023-09-06T12:25:34.286Z",
+        "updated_at": "2023-09-06T23:59:33.802Z",
+        "course_id": "db439134-865b-4f2e-8375-391a20e9e1ca",
+        "student_id": "dd51c49e-792f-4c09-8192-0fbd36246595"
+      },
+      {
+        "id": "00d642d4-c83f-4b5f-965f-b86efd1f58f2",
+        "date": "2023-09-06T20:00:42.148Z",
+        "status": "Absent",
+        "created_at": "2023-09-07T02:03:23.161Z",
+        "updated_at": "2023-09-07T00:39:36.430Z",
+        "course_id": "ae22e9fb-9cfd-41b0-a09a-8cc2e1312252",
+        "student_id": "233829ca-938f-4321-b01a-057e98fa80cc"
+      },
+      {
+        "id": "e0cc1d55-b02e-4e0c-a99f-164eefb8deac",
+        "date": "2023-09-07T00:17:50.762Z",
+        "status": "Late",
+        "created_at": "2023-09-06T20:12:03.623Z",
+        "updated_at": "2023-09-06T11:36:54.758Z",
+        "course_id": "264076bd-6a5b-4acd-9dc9-0dd4aa2d8d46",
+        "student_id": "233829ca-938f-4321-b01a-057e98fa80cc"
+      },
+      {
+        "id": "2f2f0d51-bc0e-4d7f-ad20-aef00193d339",
+        "date": "2023-09-06T21:00:29.409Z",
+        "status": "Excused",
+        "created_at": "2023-09-06T18:54:38.014Z",
+        "updated_at": "2023-09-06T16:54:01.422Z",
+        "course_id": "264076bd-6a5b-4acd-9dc9-0dd4aa2d8d46",
+        "student_id": "43a8b302-44bc-44d7-a3e0-431ddacc39f9"
+      },
+      {
+        "id": "f9093562-1ce0-4ffe-a8f9-74cb678d8fb8",
+        "date": "2023-09-07T01:23:29.840Z",
+        "status": "Tardy",
+        "created_at": "2023-09-06T14:51:17.630Z",
+        "updated_at": "2023-09-06T16:38:04.273Z",
+        "course_id": "264076bd-6a5b-4acd-9dc9-0dd4aa2d8d46",
+        "student_id": "15c21957-c59f-4211-ad5f-b3abd6a662f5"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "322919e7-1251-4c9b-b1bc-16b5b5df3272",
+        "email": "Antone.Labadie17@gmail.com",
+        "firstName": "Monica",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13972620",
+        "tenantId": null
+      },
+      {
+        "reference": "f25d9c83-bba4-4758-a7df-cc8f89cd76d3",
+        "email": "Wava_Hamill@gmail.com",
+        "firstName": "Gloria",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13148316",
+        "tenantId": null
+      },
+      {
+        "reference": "a73e932c-2e81-4ccd-b98a-11e8715d38db",
+        "email": "Santos_Grady@yahoo.com",
+        "firstName": "Rubie",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/672.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "33d451b5-0380-47fb-bc77-a70e93ce13c3",
+        "email": "Aglae_Walker@yahoo.com",
+        "firstName": "Andreanne",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88695627",
+        "tenantId": null
+      },
+      {
+        "reference": "a2037b02-dbcd-43b9-82bd-cfc707584c4e",
+        "email": "Hortense.Botsford49@yahoo.com",
+        "firstName": "Judge",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/308.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "690e66b4-bfe8-493a-9cef-28482c608f81",
+        "name": "Introduction to Python",
+        "description": "Learn the basics of Python programming language",
+        "status": "Open",
+        "created_at": "2023-09-06T16:17:01.540Z",
+        "updated_at": "2023-09-06T13:40:35.203Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc4d28a9-c216-4fff-b509-466bf94728ff",
+        "name": "Web Development Fundamentals",
+        "description": "Build interactive websites using HTML, CSS, and JavaScript",
+        "status": "Closed",
+        "created_at": "2023-09-07T03:48:54.091Z",
+        "updated_at": "2023-09-07T07:57:15.181Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5723803-7e1a-4876-9f2b-c6763eadcdd2",
+        "name": "Data Science Essentials",
+        "description": "Explore the concepts of data analysis and machine learning",
+        "status": "Upcoming",
+        "created_at": "2023-09-06T13:32:22.370Z",
+        "updated_at": "2023-09-06T14:10:58.927Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "52e6bf0d-68bb-4aa0-a8d5-e0ad85863abd",
+        "name": "Digital Marketing Strategies",
+        "description": "Discover effective strategies for online marketing",
+        "status": "Enrolling",
+        "created_at": "2023-09-06T22:10:07.371Z",
+        "updated_at": "2023-09-06T11:06:12.448Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4bae67c-ab1a-4975-890c-240a1884d8f5",
+        "name": "Project Management Basics",
+        "description": "Master the fundamentals of project management",
+        "status": "Completed",
+        "created_at": "2023-09-06T09:20:52.828Z",
+        "updated_at": "2023-09-07T00:58:43.544Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "zoom_meeting": [
+      {
+        "id": "c9e69424-994d-4092-bee0-deea4a491338",
+        "meeting_link": "https://zoom.us/j/123456789",
+        "meeting_date": "2023-09-07T06:26:02.272Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-06T12:05:03.066Z",
+        "updated_at": "2023-09-06T19:22:12.424Z",
+        "course_id": "bc4d28a9-c216-4fff-b509-466bf94728ff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c7b9795-ac7c-497e-9132-52210fa6df80",
+        "meeting_link": "https://zoom.us/j/987654321",
+        "meeting_date": "2023-09-06T21:57:04.898Z",
+        "status": "In Progress",
+        "created_at": "2023-09-06T18:23:47.725Z",
+        "updated_at": "2023-09-06T12:31:40.734Z",
+        "course_id": "f5723803-7e1a-4876-9f2b-c6763eadcdd2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1050e052-5072-4bc9-91a1-dc7cf0e5778a",
+        "meeting_link": "https://zoom.us/j/567891234",
+        "meeting_date": "2023-09-06T14:25:03.625Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T22:56:35.065Z",
+        "updated_at": "2023-09-06T23:31:42.955Z",
+        "course_id": "f5723803-7e1a-4876-9f2b-c6763eadcdd2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f8b40dc-a5bf-412f-a091-98ae69a95a9d",
+        "meeting_link": "https://zoom.us/j/432198765",
+        "meeting_date": "2023-09-07T06:43:29.538Z",
+        "status": "Completed",
+        "created_at": "2023-09-07T03:26:42.054Z",
+        "updated_at": "2023-09-07T05:45:07.475Z",
+        "course_id": "52e6bf0d-68bb-4aa0-a8d5-e0ad85863abd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6416675-3f11-4efa-8cc0-f4af96c1be7d",
+        "meeting_link": "https://zoom.us/j/876543219",
+        "meeting_date": "2023-09-06T21:52:03.343Z",
+        "status": "Pending",
+        "created_at": "2023-09-07T05:50:14.010Z",
+        "updated_at": "2023-09-07T00:28:43.415Z",
+        "course_id": "52e6bf0d-68bb-4aa0-a8d5-e0ad85863abd",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "c5a3950e-a377-4932-b96a-650b104230b6",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "status": "Active",
+        "created_at": "2023-09-06T14:51:15.886Z",
+        "updated_at": "2023-09-06T18:38:04.879Z",
+        "course_id": "f5723803-7e1a-4876-9f2b-c6763eadcdd2"
+      },
+      {
+        "id": "e812a5e9-2e4f-4cac-9aa6-e9085778344c",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "status": "Inactive",
+        "created_at": "2023-09-06T18:59:44.630Z",
+        "updated_at": "2023-09-06T15:09:45.567Z",
+        "course_id": "52e6bf0d-68bb-4aa0-a8d5-e0ad85863abd"
+      },
+      {
+        "id": "1473934f-c954-45cc-b16b-45e8d26645da",
+        "first_name": "Olivia",
+        "last_name": "Davis",
+        "status": "Pending",
+        "created_at": "2023-09-07T04:06:50.925Z",
+        "updated_at": "2023-09-06T16:29:58.911Z",
+        "course_id": "c4bae67c-ab1a-4975-890c-240a1884d8f5"
+      },
+      {
+        "id": "4f9db9be-05de-4be9-a6e7-0c47f8614e01",
+        "first_name": "Matthew",
+        "last_name": "Wilson",
+        "status": "Enrolled",
+        "created_at": "2023-09-06T17:10:37.673Z",
+        "updated_at": "2023-09-06T23:34:50.398Z",
+        "course_id": "690e66b4-bfe8-493a-9cef-28482c608f81"
+      },
+      {
+        "id": "06855765-5c5e-4fe8-bb27-d977ca45e262",
+        "first_name": "Sophia",
+        "last_name": "Taylor",
+        "status": "Graduated",
+        "created_at": "2023-09-07T03:13:45.928Z",
+        "updated_at": "2023-09-07T00:55:17.595Z",
+        "course_id": "52e6bf0d-68bb-4aa0-a8d5-e0ad85863abd"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "4cdcb56c-52cc-40b3-9a1c-4f599c599009",
+        "date": "2023-09-06T21:03:35.234Z",
+        "status": "Present",
+        "created_at": "2023-09-06T21:44:58.837Z",
+        "updated_at": "2023-09-06T12:30:29.742Z",
+        "course_id": "f5723803-7e1a-4876-9f2b-c6763eadcdd2",
+        "student_id": "1473934f-c954-45cc-b16b-45e8d26645da"
+      },
+      {
+        "id": "30d6799b-2794-4130-9d4d-8649196138f5",
+        "date": "2023-09-06T10:37:16.772Z",
+        "status": "Absent",
+        "created_at": "2023-09-07T00:27:58.727Z",
+        "updated_at": "2023-09-07T08:02:25.166Z",
+        "course_id": "690e66b4-bfe8-493a-9cef-28482c608f81",
+        "student_id": "4f9db9be-05de-4be9-a6e7-0c47f8614e01"
+      },
+      {
+        "id": "46f15936-0aba-4284-b85e-6bc91d585052",
+        "date": "2023-09-06T16:58:57.187Z",
+        "status": "Late",
+        "created_at": "2023-09-06T19:22:34.635Z",
+        "updated_at": "2023-09-06T09:49:45.161Z",
+        "course_id": "690e66b4-bfe8-493a-9cef-28482c608f81",
+        "student_id": "06855765-5c5e-4fe8-bb27-d977ca45e262"
+      },
+      {
+        "id": "81448a0e-0543-4134-ab03-47b4ba6b6e1d",
+        "date": "2023-09-07T02:22:51.344Z",
+        "status": "Excused",
+        "created_at": "2023-09-07T04:07:45.213Z",
+        "updated_at": "2023-09-06T12:04:09.419Z",
+        "course_id": "bc4d28a9-c216-4fff-b509-466bf94728ff",
+        "student_id": "06855765-5c5e-4fe8-bb27-d977ca45e262"
+      },
+      {
+        "id": "131ad600-b773-41dc-bb6e-640519674689",
+        "date": "2023-09-07T03:33:26.779Z",
+        "status": "Tardy",
+        "created_at": "2023-09-07T06:01:14.862Z",
+        "updated_at": "2023-09-07T08:21:02.825Z",
+        "course_id": "690e66b4-bfe8-493a-9cef-28482c608f81",
+        "student_id": "e812a5e9-2e4f-4cac-9aa6-e9085778344c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3d7af0b9-7dc8-4096-bd88-8123532bc0a3",
+        "email": "Abigail_Cummerata25@yahoo.com",
+        "firstName": "Burnice",
+        "lastName": "Schmidt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/21.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f3339ffc-1ee4-45a0-b22f-a36a7d474a92",
+        "email": "Elvie_Hickle@hotmail.com",
+        "firstName": "Myrtie",
+        "lastName": "Schroeder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5803788",
+        "tenantId": null
+      },
+      {
+        "reference": "a002bc30-3489-4181-91b6-747a6b177996",
+        "email": "Eudora_Renner68@hotmail.com",
+        "firstName": "Madalyn",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/577.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "78fbf819-39db-4a35-9cbe-5b0a048ffa6a",
+        "email": "Elisa_Block@yahoo.com",
+        "firstName": "Alysha",
+        "lastName": "Weissnat",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67891054",
+        "tenantId": null
+      },
+      {
+        "reference": "d59c09fe-3dd3-4b3f-b9bd-94b895a0bbb9",
+        "email": "Emory48@yahoo.com",
+        "firstName": "Brielle",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/40384695",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "0f036015-89aa-4e49-b8bc-52a88ba0cb6e",
+        "name": "Introduction to Python",
+        "description": "Learn the basics of Python programming language",
+        "status": "Active",
+        "created_at": "2023-09-07T04:29:00.537Z",
+        "updated_at": "2023-09-07T01:23:32.880Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "348aa378-6a7d-4dec-8b8f-214dcf33df62",
+        "name": "Web Development Fundamentals",
+        "description": "Explore the fundamentals of web development",
+        "status": "Inactive",
+        "created_at": "2023-09-06T12:46:39.429Z",
+        "updated_at": "2023-09-07T01:49:50.017Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "844977a8-f7ee-4049-b8d3-2c888f0691d1",
+        "name": "Data Science for Beginners",
+        "description": "Get started with data science and analytics",
+        "status": "Upcoming",
+        "created_at": "2023-09-07T01:56:41.130Z",
+        "updated_at": "2023-09-07T03:19:12.569Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdb732e4-b512-495e-a0b3-5567bb012e9a",
+        "name": "Digital Marketing Strategies",
+        "description": "Discover effective digital marketing techniques",
+        "status": "Completed",
+        "created_at": "2023-09-06T12:50:33.674Z",
+        "updated_at": "2023-09-06T19:13:18.834Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22612e33-3dc7-4bd1-97db-0fc13683da7b",
+        "name": "Business Management Essentials",
+        "description": "Master essential skills for successful business management",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T18:58:00.122Z",
+        "updated_at": "2023-09-07T07:43:54.672Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "zoom_meeting": [
+      {
+        "id": "96f74673-3e78-46a5-978c-ac1d1cf8f604",
+        "meeting_link": "https://zoom.us/j/123456789",
+        "meeting_date": "2023-09-06T20:11:16.510Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-06T20:24:41.014Z",
+        "updated_at": "2023-09-06T20:29:10.667Z",
+        "course_id": "bdb732e4-b512-495e-a0b3-5567bb012e9a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c175e909-0048-459c-8d20-af15afc9d3b1",
+        "meeting_link": "https://zoom.us/j/987654321",
+        "meeting_date": "2023-09-07T02:10:33.380Z",
+        "status": "Ongoing",
+        "created_at": "2023-09-06T19:13:34.302Z",
+        "updated_at": "2023-09-06T18:31:55.512Z",
+        "course_id": "0f036015-89aa-4e49-b8bc-52a88ba0cb6e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6e3c152-7bfe-4c5f-a33a-91b9d4d85938",
+        "meeting_link": "https://zoom.us/j/456789123",
+        "meeting_date": "2023-09-06T10:36:20.526Z",
+        "status": "Finished",
+        "created_at": "2023-09-06T19:40:00.469Z",
+        "updated_at": "2023-09-07T08:03:20.631Z",
+        "course_id": "844977a8-f7ee-4049-b8d3-2c888f0691d1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d7ccc4f-73c7-473f-b254-4f51db475ea1",
+        "meeting_link": "https://zoom.us/j/321654987",
+        "meeting_date": "2023-09-07T08:01:02.324Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-07T01:24:27.427Z",
+        "updated_at": "2023-09-06T13:00:21.730Z",
+        "course_id": "844977a8-f7ee-4049-b8d3-2c888f0691d1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29b67f07-47ae-4aff-abe3-a2f21751793a",
+        "meeting_link": "https://zoom.us/j/789123456",
+        "meeting_date": "2023-09-06T13:55:43.801Z",
+        "status": "Postponed",
+        "created_at": "2023-09-07T07:38:19.348Z",
+        "updated_at": "2023-09-06T17:33:46.395Z",
+        "course_id": "bdb732e4-b512-495e-a0b3-5567bb012e9a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "aad59295-1ad4-4e64-835e-f6af3250e296",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "status": "Enrolled",
+        "created_at": "2023-09-06T19:44:00.819Z",
+        "updated_at": "2023-09-06T23:18:17.896Z",
+        "course_id": "0f036015-89aa-4e49-b8bc-52a88ba0cb6e"
+      },
+      {
+        "id": "5457728a-1091-4dc0-80c6-d49017c39d2a",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "status": "Dropped",
+        "created_at": "2023-09-06T18:52:09.699Z",
+        "updated_at": "2023-09-06T23:50:42.558Z",
+        "course_id": "22612e33-3dc7-4bd1-97db-0fc13683da7b"
+      },
+      {
+        "id": "9e238e9a-e00b-470b-99bc-53736252534d",
+        "first_name": "Olivia",
+        "last_name": "Miller",
+        "status": "Graduated",
+        "created_at": "2023-09-06T22:29:38.320Z",
+        "updated_at": "2023-09-06T18:38:56.438Z",
+        "course_id": "844977a8-f7ee-4049-b8d3-2c888f0691d1"
+      },
+      {
+        "id": "e06b06b0-391b-4bcc-a8ec-54fb8c2bcc89",
+        "first_name": "Matthew",
+        "last_name": "Davis",
+        "status": "Suspended",
+        "created_at": "2023-09-07T05:37:28.282Z",
+        "updated_at": "2023-09-07T01:44:13.537Z",
+        "course_id": "22612e33-3dc7-4bd1-97db-0fc13683da7b"
+      },
+      {
+        "id": "eb47c62b-f0d8-41c9-8516-9b69114de6e0",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "status": "Transferred",
+        "created_at": "2023-09-07T00:21:58.999Z",
+        "updated_at": "2023-09-07T03:08:40.441Z",
+        "course_id": "844977a8-f7ee-4049-b8d3-2c888f0691d1"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "da7bdc6a-d70f-483e-9398-76b5562e88fd",
+        "date": "2023-09-06T15:59:39.122Z",
+        "status": "Present",
+        "created_at": "2023-09-07T02:26:01.115Z",
+        "updated_at": "2023-09-06T20:19:57.986Z",
+        "course_id": "0f036015-89aa-4e49-b8bc-52a88ba0cb6e",
+        "student_id": "e06b06b0-391b-4bcc-a8ec-54fb8c2bcc89"
+      },
+      {
+        "id": "3cbee213-d74b-423a-bb42-2df7824acbf3",
+        "date": "2023-09-07T02:31:15.008Z",
+        "status": "Absent",
+        "created_at": "2023-09-06T17:57:12.139Z",
+        "updated_at": "2023-09-06T14:58:26.522Z",
+        "course_id": "22612e33-3dc7-4bd1-97db-0fc13683da7b",
+        "student_id": "eb47c62b-f0d8-41c9-8516-9b69114de6e0"
+      },
+      {
+        "id": "f3a88698-0f7f-4d43-81c5-9a23f4a8d1d2",
+        "date": "2023-09-06T22:38:50.354Z",
+        "status": "Late",
+        "created_at": "2023-09-06T18:10:25.411Z",
+        "updated_at": "2023-09-07T03:18:41.284Z",
+        "course_id": "348aa378-6a7d-4dec-8b8f-214dcf33df62",
+        "student_id": "5457728a-1091-4dc0-80c6-d49017c39d2a"
+      },
+      {
+        "id": "17ec2aaf-ecad-49b3-ae61-80c401438c7d",
+        "date": "2023-09-06T15:21:52.835Z",
+        "status": "Excused",
+        "created_at": "2023-09-07T05:44:31.593Z",
+        "updated_at": "2023-09-07T02:35:29.549Z",
+        "course_id": "844977a8-f7ee-4049-b8d3-2c888f0691d1",
+        "student_id": "eb47c62b-f0d8-41c9-8516-9b69114de6e0"
+      },
+      {
+        "id": "a253e32b-7e2c-446b-8fa0-3e3d20c96be6",
+        "date": "2023-09-06T14:05:54.836Z",
+        "status": "Tardy",
+        "created_at": "2023-09-06T21:36:07.835Z",
+        "updated_at": "2023-09-06T23:57:05.660Z",
+        "course_id": "22612e33-3dc7-4bd1-97db-0fc13683da7b",
+        "student_id": "9e238e9a-e00b-470b-99bc-53736252534d"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2c41ebdc-c19e-4f9d-bdea-cd0a9cf027a3",
+        "email": "Sophia_Brown59@yahoo.com",
+        "firstName": "Krystel",
+        "lastName": "Bauch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/755.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a718daa0-4a2a-4a62-9f19-2988af57c058",
+        "email": "Kirk82@yahoo.com",
+        "firstName": "Alanis",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/776.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "95e7b190-2832-4ee4-9cd9-0b20d80fd7ca",
+        "email": "Jazlyn_Doyle@hotmail.com",
+        "firstName": "Fred",
+        "lastName": "Gerlach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/788.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "83c311b7-7fb7-4839-a371-03eab76980e0",
+        "email": "Adolfo2@gmail.com",
+        "firstName": "Carmela",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/107.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3431799c-45e9-4add-8d6a-ce067fa6cd01",
+        "email": "Kane_Fisher75@yahoo.com",
+        "firstName": "Genesis",
+        "lastName": "Pacocha",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/913.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "1a219a0e-13d0-4ade-bf43-7ff2648cf704",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming and develop your own applications",
+        "status": "Active",
+        "created_at": "2023-09-07T04:20:06.220Z",
+        "updated_at": "2023-09-06T09:07:37.791Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "516eda49-5974-4962-bebd-8f282df7e47a",
+        "name": "Data Analysis and Visualization",
+        "description": "Explore techniques for analyzing and visualizing data to gain insights",
+        "status": "Inactive",
+        "created_at": "2023-09-06T23:39:38.119Z",
+        "updated_at": "2023-09-07T06:19:10.569Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27fd070b-850d-4e99-a6e4-77bf4c3e7c79",
+        "name": "Marketing Strategies for Small Businesses",
+        "description": "Discover effective marketing strategies to grow your small business",
+        "status": "Pending",
+        "created_at": "2023-09-06T17:11:45.781Z",
+        "updated_at": "2023-09-06T13:21:26.725Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8339f5e1-ec76-472a-8010-6ee8cbe13179",
+        "name": "Financial Management for Entrepreneurs",
+        "description": "Gain essential financial management skills for entrepreneurial success",
+        "status": "Completed",
+        "created_at": "2023-09-06T21:47:20.116Z",
+        "updated_at": "2023-09-06T10:18:39.704Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8fb4ec87-e104-45b1-830a-d59bab400fd5",
+        "name": "Artificial Intelligence Fundamentals",
+        "description": "Understand the fundamentals of artificial intelligence and its applications",
+        "status": "Enrolled",
+        "created_at": "2023-09-06T16:06:24.483Z",
+        "updated_at": "2023-09-07T00:20:38.800Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "zoom_meeting": [
+      {
+        "id": "774005ed-4a05-41ea-8bd2-567ed9074f91",
+        "meeting_link": "https://zoom.us/j/123456789",
+        "meeting_date": "2023-09-07T07:31:07.997Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-06T09:54:03.127Z",
+        "updated_at": "2023-09-06T14:52:25.933Z",
+        "course_id": "516eda49-5974-4962-bebd-8f282df7e47a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b4851bc-c22a-4c61-aac1-9fb64421aad2",
+        "meeting_link": "https://zoom.us/j/987654321",
+        "meeting_date": "2023-09-06T11:15:43.072Z",
+        "status": "Ongoing",
+        "created_at": "2023-09-06T23:36:18.813Z",
+        "updated_at": "2023-09-07T00:31:36.942Z",
+        "course_id": "27fd070b-850d-4e99-a6e4-77bf4c3e7c79",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8be91de4-5c11-4393-b7fc-5e07d5087e85",
+        "meeting_link": "https://zoom.us/j/456789123",
+        "meeting_date": "2023-09-07T00:09:39.188Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T22:11:55.496Z",
+        "updated_at": "2023-09-07T06:20:20.262Z",
+        "course_id": "1a219a0e-13d0-4ade-bf43-7ff2648cf704",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "281dd0e3-6aed-48d8-8d5e-3224184ddb39",
+        "meeting_link": "https://zoom.us/j/321654987",
+        "meeting_date": "2023-09-07T03:05:40.325Z",
+        "status": "Completed",
+        "created_at": "2023-09-06T10:47:19.440Z",
+        "updated_at": "2023-09-06T21:42:51.265Z",
+        "course_id": "27fd070b-850d-4e99-a6e4-77bf4c3e7c79",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d306d088-6a09-4904-8031-da07b122d489",
+        "meeting_link": "https://zoom.us/j/789123456",
+        "meeting_date": "2023-09-06T20:58:03.327Z",
+        "status": "Postponed",
+        "created_at": "2023-09-06T22:48:35.545Z",
+        "updated_at": "2023-09-06T17:25:59.816Z",
+        "course_id": "8339f5e1-ec76-472a-8010-6ee8cbe13179",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "1a9bc14b-1b84-4149-a1ba-8d62f93cf129",
+        "first_name": "Emily",
+        "last_name": "Wilson",
+        "status": "Active",
+        "created_at": "2023-09-06T12:23:16.062Z",
+        "updated_at": "2023-09-06T18:48:23.047Z",
+        "course_id": "27fd070b-850d-4e99-a6e4-77bf4c3e7c79"
+      },
+      {
+        "id": "676d8b81-9bfc-42c9-a815-cb0befa1c88c",
+        "first_name": "Daniel",
+        "last_name": "Thompson",
+        "status": "Inactive",
+        "created_at": "2023-09-06T17:16:19.738Z",
+        "updated_at": "2023-09-06T23:55:48.138Z",
+        "course_id": "8339f5e1-ec76-472a-8010-6ee8cbe13179"
+      },
+      {
+        "id": "08888339-4681-4ec5-8ab6-aef9ef82e040",
+        "first_name": "Olivia",
+        "last_name": "Clark",
+        "status": "Pending",
+        "created_at": "2023-09-06T22:06:30.963Z",
+        "updated_at": "2023-09-06T12:24:12.079Z",
+        "course_id": "516eda49-5974-4962-bebd-8f282df7e47a"
+      },
+      {
+        "id": "2064e0db-decb-402e-bcf8-dfd1e3c65712",
+        "first_name": "Matthew",
+        "last_name": "Anderson",
+        "status": "Enrolled",
+        "created_at": "2023-09-07T00:48:09.737Z",
+        "updated_at": "2023-09-06T11:30:00.856Z",
+        "course_id": "8fb4ec87-e104-45b1-830a-d59bab400fd5"
+      },
+      {
+        "id": "22570c68-6acc-4820-972c-b8f4e68ea38f",
+        "first_name": "Sophia",
+        "last_name": "Walker",
+        "status": "Graduated",
+        "created_at": "2023-09-06T23:39:04.504Z",
+        "updated_at": "2023-09-06T17:22:26.706Z",
+        "course_id": "8339f5e1-ec76-472a-8010-6ee8cbe13179"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "a7d8e439-94e8-413a-a455-4cd6480e038f",
+        "date": "2023-09-06T23:14:57.216Z",
+        "status": "Present",
+        "created_at": "2023-09-07T02:47:50.971Z",
+        "updated_at": "2023-09-07T05:14:16.039Z",
+        "course_id": "8339f5e1-ec76-472a-8010-6ee8cbe13179",
+        "student_id": "2064e0db-decb-402e-bcf8-dfd1e3c65712"
+      },
+      {
+        "id": "9e5b84b8-4f36-46ab-a7ed-fc67a1c15d63",
+        "date": "2023-09-07T08:20:37.149Z",
+        "status": "Absent",
+        "created_at": "2023-09-06T16:45:03.521Z",
+        "updated_at": "2023-09-07T01:46:29.029Z",
+        "course_id": "1a219a0e-13d0-4ade-bf43-7ff2648cf704",
+        "student_id": "22570c68-6acc-4820-972c-b8f4e68ea38f"
+      },
+      {
+        "id": "2b4afe4a-587c-45ef-9f82-e4aa2353adac",
+        "date": "2023-09-06T18:57:42.131Z",
+        "status": "Late",
+        "created_at": "2023-09-06T16:56:27.067Z",
+        "updated_at": "2023-09-07T00:16:47.846Z",
+        "course_id": "516eda49-5974-4962-bebd-8f282df7e47a",
+        "student_id": "22570c68-6acc-4820-972c-b8f4e68ea38f"
+      },
+      {
+        "id": "37b641a1-e2d4-497e-bc66-4435f760f5dd",
+        "date": "2023-09-07T07:55:19.633Z",
+        "status": "Excused",
+        "created_at": "2023-09-06T14:20:46.006Z",
+        "updated_at": "2023-09-06T12:48:35.633Z",
+        "course_id": "27fd070b-850d-4e99-a6e4-77bf4c3e7c79",
+        "student_id": "22570c68-6acc-4820-972c-b8f4e68ea38f"
+      },
+      {
+        "id": "ce179efd-3e52-4842-9424-48996a9475db",
+        "date": "2023-09-07T02:52:11.372Z",
+        "status": "Tardy",
+        "created_at": "2023-09-06T10:41:58.635Z",
+        "updated_at": "2023-09-06T11:55:00.063Z",
+        "course_id": "1a219a0e-13d0-4ade-bf43-7ff2648cf704",
+        "student_id": "676d8b81-9bfc-42c9-a815-cb0befa1c88c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "34024b36-9a13-4305-a4e7-57be279d5b88",
+        "email": "Ottilie_Rogahn49@gmail.com",
+        "firstName": "Catalina",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/559.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6a3e6320-7324-4e90-b1b8-655c91b5a44f",
+        "email": "Kasey12@gmail.com",
+        "firstName": "Miracle",
+        "lastName": "Bosco-Gottlieb",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99002594",
+        "tenantId": null
+      },
+      {
+        "reference": "ec477d30-a7e5-4ca7-8eb7-636eab2cb853",
+        "email": "Constantin_Volkman@yahoo.com",
+        "firstName": "Elta",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/409.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "36b77d13-bd13-4788-9830-e8af2522be80",
+        "email": "Nathan57@yahoo.com",
+        "firstName": "Karli",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79787079",
+        "tenantId": null
+      },
+      {
+        "reference": "e791a251-396b-4a4c-a398-c33914fb3769",
+        "email": "Hertha84@yahoo.com",
+        "firstName": "Katelynn",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1243.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "763c6bcc-2192-4758-a67e-a571dbbd87d8",
+        "name": "Introduction to Python Programming",
+        "description": "Learn the basics of Python programming language and its applications",
+        "status": "Open",
+        "created_at": "2023-09-06T23:40:52.829Z",
+        "updated_at": "2023-09-06T14:09:39.263Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "469701ba-7818-46a4-bfd8-2e7c88a7b88e",
+        "name": "Web Development Fundamentals",
+        "description": "Build interactive websites using HTML, CSS, and JavaScript",
+        "status": "Closed",
+        "created_at": "2023-09-06T14:51:53.333Z",
+        "updated_at": "2023-09-06T18:34:30.806Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "994a44a7-9f37-4663-8bf5-7fbcf156e117",
+        "name": "Data Science for Beginners",
+        "description": "Explore the world of data science and its methodologies",
+        "status": "Upcoming",
+        "created_at": "2023-09-06T20:08:25.437Z",
+        "updated_at": "2023-09-06T13:11:58.016Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67471830-31f5-4147-9674-9aa29d35cfd8",
+        "name": "Marketing Strategies and Tactics",
+        "description": "Discover effective marketing strategies to grow your business",
+        "status": "Enrolling",
+        "created_at": "2023-09-06T23:52:06.663Z",
+        "updated_at": "2023-09-06T13:42:47.751Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14f743d8-2b4d-4ae4-aa80-956d0497259f",
+        "name": "Project Management Essentials",
+        "description": "Master the essential skills for successful project management",
+        "status": "Completed",
+        "created_at": "2023-09-07T03:18:00.054Z",
+        "updated_at": "2023-09-07T01:54:40.848Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "zoom_meeting": [
+      {
+        "id": "7fdb2194-9f6e-40b3-acdf-bf282bb45d08",
+        "meeting_link": "https://zoom.us/meeting/123456789",
+        "meeting_date": "2023-09-07T04:09:40.502Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-07T05:09:09.365Z",
+        "updated_at": "2023-09-07T00:26:59.945Z",
+        "course_id": "994a44a7-9f37-4663-8bf5-7fbcf156e117",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad324093-6bce-481f-9751-afd5ca18c81a",
+        "meeting_link": "https://zoom.us/meeting/987654321",
+        "meeting_date": "2023-09-06T21:26:25.600Z",
+        "status": "Ongoing",
+        "created_at": "2023-09-06T19:53:37.778Z",
+        "updated_at": "2023-09-06T22:16:35.375Z",
+        "course_id": "14f743d8-2b4d-4ae4-aa80-956d0497259f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e591eb65-99dc-40a5-bee3-2d95ec80b4e7",
+        "meeting_link": "https://zoom.us/meeting/456789123",
+        "meeting_date": "2023-09-06T22:52:27.659Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-07T00:41:38.380Z",
+        "updated_at": "2023-09-06T22:08:16.020Z",
+        "course_id": "763c6bcc-2192-4758-a67e-a571dbbd87d8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21292e8f-9b60-4625-9857-a9f819e37677",
+        "meeting_link": "https://zoom.us/meeting/321654987",
+        "meeting_date": "2023-09-06T16:28:35.522Z",
+        "status": "Completed",
+        "created_at": "2023-09-06T15:37:44.848Z",
+        "updated_at": "2023-09-06T23:17:59.617Z",
+        "course_id": "14f743d8-2b4d-4ae4-aa80-956d0497259f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "49a8b1f1-2cff-47ec-9e4e-37425aaf93bb",
+        "meeting_link": "https://zoom.us/meeting/789123456",
+        "meeting_date": "2023-09-06T16:51:24.058Z",
+        "status": "Postponed",
+        "created_at": "2023-09-06T15:38:52.372Z",
+        "updated_at": "2023-09-06T22:52:23.709Z",
+        "course_id": "469701ba-7818-46a4-bfd8-2e7c88a7b88e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "3af0cea7-5c35-4412-880f-84a9107a95e8",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "status": "Active",
+        "created_at": "2023-09-07T04:09:13.963Z",
+        "updated_at": "2023-09-06T12:52:46.092Z",
+        "course_id": "14f743d8-2b4d-4ae4-aa80-956d0497259f"
+      },
+      {
+        "id": "c113efa8-617a-40df-b966-3459b8a45f17",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "status": "Inactive",
+        "created_at": "2023-09-07T08:21:26.495Z",
+        "updated_at": "2023-09-07T08:26:17.721Z",
+        "course_id": "763c6bcc-2192-4758-a67e-a571dbbd87d8"
+      },
+      {
+        "id": "e20dbbc4-4912-442a-a3ab-46acf0f1d78f",
+        "first_name": "Olivia",
+        "last_name": "Smith",
+        "status": "Pending",
+        "created_at": "2023-09-06T13:22:38.556Z",
+        "updated_at": "2023-09-07T04:42:36.121Z",
+        "course_id": "763c6bcc-2192-4758-a67e-a571dbbd87d8"
+      },
+      {
+        "id": "67ef9a3d-70f1-432a-8992-1ed06b99457d",
+        "first_name": "Matthew",
+        "last_name": "Davis",
+        "status": "Suspended",
+        "created_at": "2023-09-07T01:20:02.435Z",
+        "updated_at": "2023-09-06T09:00:31.724Z",
+        "course_id": "14f743d8-2b4d-4ae4-aa80-956d0497259f"
+      },
+      {
+        "id": "3c7e5503-3998-433d-ac1e-3f50dcdefe2a",
+        "first_name": "Sophia",
+        "last_name": "Miller",
+        "status": "Enrolled",
+        "created_at": "2023-09-07T06:44:28.405Z",
+        "updated_at": "2023-09-06T21:26:42.551Z",
+        "course_id": "994a44a7-9f37-4663-8bf5-7fbcf156e117"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "e63079a0-e9ed-45d5-b559-11021539004f",
+        "date": "2023-09-06T22:50:23.108Z",
+        "status": "Present",
+        "created_at": "2023-09-06T08:49:13.285Z",
+        "updated_at": "2023-09-06T12:35:19.219Z",
+        "course_id": "469701ba-7818-46a4-bfd8-2e7c88a7b88e",
+        "student_id": "3c7e5503-3998-433d-ac1e-3f50dcdefe2a"
+      },
+      {
+        "id": "a837edcb-dc2c-4932-b54b-efc80dce0f01",
+        "date": "2023-09-06T18:07:24.378Z",
+        "status": "Absent",
+        "created_at": "2023-09-06T17:36:53.256Z",
+        "updated_at": "2023-09-06T17:49:14.592Z",
+        "course_id": "994a44a7-9f37-4663-8bf5-7fbcf156e117",
+        "student_id": "c113efa8-617a-40df-b966-3459b8a45f17"
+      },
+      {
+        "id": "d972139d-6dff-4543-96da-cccd7325122e",
+        "date": "2023-09-06T21:30:27.120Z",
+        "status": "Late",
+        "created_at": "2023-09-07T06:42:24.854Z",
+        "updated_at": "2023-09-06T14:32:28.304Z",
+        "course_id": "67471830-31f5-4147-9674-9aa29d35cfd8",
+        "student_id": "c113efa8-617a-40df-b966-3459b8a45f17"
+      },
+      {
+        "id": "80dbc6a9-1f65-4f8a-b1ce-196d93a6d0d0",
+        "date": "2023-09-07T08:16:20.639Z",
+        "status": "Excused",
+        "created_at": "2023-09-07T03:15:17.782Z",
+        "updated_at": "2023-09-07T06:41:05.748Z",
+        "course_id": "14f743d8-2b4d-4ae4-aa80-956d0497259f",
+        "student_id": "e20dbbc4-4912-442a-a3ab-46acf0f1d78f"
+      },
+      {
+        "id": "b74d278d-5beb-4e0d-beff-7cb27f1777ba",
+        "date": "2023-09-07T06:59:41.425Z",
+        "status": "Tardy",
+        "created_at": "2023-09-06T23:50:28.385Z",
+        "updated_at": "2023-09-06T13:54:47.957Z",
+        "course_id": "994a44a7-9f37-4663-8bf5-7fbcf156e117",
+        "student_id": "e20dbbc4-4912-442a-a3ab-46acf0f1d78f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9567c85f-1c6c-4a57-bfcc-4112434e32a5",
+        "email": "Josiane.Price84@hotmail.com",
+        "firstName": "Fiona",
+        "lastName": "Dickens",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80618988",
+        "tenantId": null
+      },
+      {
+        "reference": "9af34307-c6da-4dd5-b733-2ca12947cb4b",
+        "email": "Skyla.Abbott77@hotmail.com",
+        "firstName": "Joel",
+        "lastName": "Hahn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/446.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "75301f43-f48e-4b26-b1dd-7487d6d8600a",
+        "email": "Flossie39@yahoo.com",
+        "firstName": "Micheal",
+        "lastName": "Feil",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1053.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d31ce79d-d826-4f2d-a23a-f5475a526c00",
+        "email": "Furman_Monahan@hotmail.com",
+        "firstName": "Miller",
+        "lastName": "Yundt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81035651",
+        "tenantId": null
+      },
+      {
+        "reference": "dea47ae3-b71f-4e11-9dd0-42461bba66fe",
+        "email": "Jadyn.Prosacco@hotmail.com",
+        "firstName": "Elissa",
+        "lastName": "Greenholt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/141.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "9a7138b1-0d07-4392-bc00-51233e226fc4",
+        "name": "Mathematics",
+        "description": "An introductory course on calculus",
+        "status": "Open",
+        "created_at": "2023-09-06T17:13:36.894Z",
+        "updated_at": "2023-09-06T23:49:07.183Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbb801d4-29c3-4a0e-b209-699bb9d256ba",
+        "name": "English Literature",
+        "description": "A study of classic literature",
+        "status": "Closed",
+        "created_at": "2023-09-07T06:54:35.751Z",
+        "updated_at": "2023-09-07T08:26:16.106Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c368e6d-ae42-49d0-8aeb-1eb0b99d59f2",
+        "name": "Computer Science",
+        "description": "Exploring algorithms and data structures",
+        "status": "Upcoming",
+        "created_at": "2023-09-07T06:44:52.712Z",
+        "updated_at": "2023-09-07T07:18:55.678Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07bb0193-ed88-45d7-b310-89ed3f5f5b95",
+        "name": "History",
+        "description": "Examining historical events",
+        "status": "Enrolling",
+        "created_at": "2023-09-07T06:21:39.009Z",
+        "updated_at": "2023-09-06T12:01:07.881Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b452a1b-737c-4230-b637-6e0bfe6c1d9c",
+        "name": "Biology",
+        "description": "Understanding the principles of life",
+        "status": "In Progress",
+        "created_at": "2023-09-06T19:22:08.059Z",
+        "updated_at": "2023-09-07T00:26:51.969Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "zoom_meeting": [
+      {
+        "id": "07e3a598-dab4-422e-a709-571349f9cc6f",
+        "meeting_link": "https://zoom.us/meeting/123456789",
+        "meeting_date": "2023-09-06T14:34:13.969Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-06T21:23:43.443Z",
+        "updated_at": "2023-09-06T13:13:51.100Z",
+        "course_id": "fbb801d4-29c3-4a0e-b209-699bb9d256ba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e36f5450-c267-43e9-9fba-18586ec24c98",
+        "meeting_link": "https://zoom.us/meeting/987654321",
+        "meeting_date": "2023-09-06T16:12:26.271Z",
+        "status": "Ongoing",
+        "created_at": "2023-09-06T08:58:38.871Z",
+        "updated_at": "2023-09-06T10:27:14.276Z",
+        "course_id": "9b452a1b-737c-4230-b637-6e0bfe6c1d9c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b231a172-f0e6-4295-a0ac-c1be910b1d0f",
+        "meeting_link": "https://zoom.us/meeting/567891234",
+        "meeting_date": "2023-09-06T18:58:03.057Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T14:47:06.925Z",
+        "updated_at": "2023-09-07T05:00:07.911Z",
+        "course_id": "fbb801d4-29c3-4a0e-b209-699bb9d256ba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7047b30-a57d-416c-a5d5-893a95f5855f",
+        "meeting_link": "https://zoom.us/meeting/432198765",
+        "meeting_date": "2023-09-07T01:06:46.345Z",
+        "status": "Completed",
+        "created_at": "2023-09-06T09:21:12.369Z",
+        "updated_at": "2023-09-06T10:29:10.264Z",
+        "course_id": "9a7138b1-0d07-4392-bc00-51233e226fc4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e27abdcd-f7ba-43f5-8ed5-7810822947cb",
+        "meeting_link": "https://zoom.us/meeting/876543219",
+        "meeting_date": "2023-09-07T00:22:15.008Z",
+        "status": "Postponed",
+        "created_at": "2023-09-07T06:14:43.591Z",
+        "updated_at": "2023-09-07T07:29:28.445Z",
+        "course_id": "fbb801d4-29c3-4a0e-b209-699bb9d256ba",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "5d33e0bd-5140-47a7-9678-3489545f425c",
+        "first_name": "Alex",
+        "last_name": "Wilson",
+        "status": "Active",
+        "created_at": "2023-09-06T10:49:19.576Z",
+        "updated_at": "2023-09-06T16:03:39.990Z",
+        "course_id": "3c368e6d-ae42-49d0-8aeb-1eb0b99d59f2"
+      },
+      {
+        "id": "56b2a8a5-2155-49cd-bf18-557461bb7044",
+        "first_name": "Sophia",
+        "last_name": "Anderson",
+        "status": "Inactive",
+        "created_at": "2023-09-07T02:44:22.570Z",
+        "updated_at": "2023-09-06T14:33:42.548Z",
+        "course_id": "9a7138b1-0d07-4392-bc00-51233e226fc4"
+      },
+      {
+        "id": "9f7a893b-9831-40c0-8ed1-46a50eb1a93e",
+        "first_name": "Oliver",
+        "last_name": "Thompson",
+        "status": "Enrolled",
+        "created_at": "2023-09-07T03:11:54.429Z",
+        "updated_at": "2023-09-07T04:58:32.824Z",
+        "course_id": "07bb0193-ed88-45d7-b310-89ed3f5f5b95"
+      },
+      {
+        "id": "daf977e5-77fb-47b3-bedc-7d154eaeaf50",
+        "first_name": "Isabella",
+        "last_name": "Harris",
+        "status": "Graduated",
+        "created_at": "2023-09-06T13:35:51.733Z",
+        "updated_at": "2023-09-06T21:05:17.851Z",
+        "course_id": "3c368e6d-ae42-49d0-8aeb-1eb0b99d59f2"
+      },
+      {
+        "id": "fe2aa5e0-78b4-45e2-9288-73f47a93fb2b",
+        "first_name": "Ethan",
+        "last_name": "Martin",
+        "status": "On Leave",
+        "created_at": "2023-09-06T15:54:06.865Z",
+        "updated_at": "2023-09-06T19:15:03.029Z",
+        "course_id": "fbb801d4-29c3-4a0e-b209-699bb9d256ba"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "aac53c4c-4aaf-48c1-8e9d-538e595407f3",
+        "date": "2023-09-07T00:54:35.409Z",
+        "status": "Present",
+        "created_at": "2023-09-06T21:49:55.191Z",
+        "updated_at": "2023-09-07T02:10:47.270Z",
+        "course_id": "9b452a1b-737c-4230-b637-6e0bfe6c1d9c",
+        "student_id": "5d33e0bd-5140-47a7-9678-3489545f425c"
+      },
+      {
+        "id": "bd82e5c5-78c7-4a0c-b553-e9116502de90",
+        "date": "2023-09-07T03:18:24.137Z",
+        "status": "Absent",
+        "created_at": "2023-09-06T08:40:19.128Z",
+        "updated_at": "2023-09-07T07:35:52.678Z",
+        "course_id": "07bb0193-ed88-45d7-b310-89ed3f5f5b95",
+        "student_id": "9f7a893b-9831-40c0-8ed1-46a50eb1a93e"
+      },
+      {
+        "id": "76cdaf27-3b6f-40c9-9633-203e6024cceb",
+        "date": "2023-09-06T15:05:54.314Z",
+        "status": "Late",
+        "created_at": "2023-09-07T03:02:56.941Z",
+        "updated_at": "2023-09-06T08:31:21.184Z",
+        "course_id": "9b452a1b-737c-4230-b637-6e0bfe6c1d9c",
+        "student_id": "daf977e5-77fb-47b3-bedc-7d154eaeaf50"
+      },
+      {
+        "id": "79f8a3ca-7898-4db7-87f9-0f1d639b654e",
+        "date": "2023-09-06T23:05:59.566Z",
+        "status": "Excused",
+        "created_at": "2023-09-07T00:28:31.106Z",
+        "updated_at": "2023-09-06T14:55:53.888Z",
+        "course_id": "07bb0193-ed88-45d7-b310-89ed3f5f5b95",
+        "student_id": "5d33e0bd-5140-47a7-9678-3489545f425c"
+      },
+      {
+        "id": "4b8bd57d-b532-4732-8219-e208be179f8b",
+        "date": "2023-09-07T01:07:14.589Z",
+        "status": "Tardy",
+        "created_at": "2023-09-06T10:55:19.796Z",
+        "updated_at": "2023-09-07T03:10:04.592Z",
+        "course_id": "07bb0193-ed88-45d7-b310-89ed3f5f5b95",
+        "student_id": "fe2aa5e0-78b4-45e2-9288-73f47a93fb2b"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b62fc27c-2113-4736-8f87-20b9c33f8ca3",
+        "email": "Ferne.Osinski80@yahoo.com",
+        "firstName": "Cale",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/627.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e30b2263-a7bc-4842-91cc-2dc1e421a3c3",
+        "email": "Carlos.Zieme@gmail.com",
+        "firstName": "Estell",
+        "lastName": "Stamm",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88998609",
+        "tenantId": null
+      },
+      {
+        "reference": "bc5fb23c-a081-45d6-98df-f0af66c2cd8e",
+        "email": "Urban.Hilpert@gmail.com",
+        "firstName": "Clementina",
+        "lastName": "Connelly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65558098",
+        "tenantId": null
+      },
+      {
+        "reference": "f3b703a8-09fc-404c-b552-a33b05c2323d",
+        "email": "Ahmed51@yahoo.com",
+        "firstName": "Colby",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63332505",
+        "tenantId": null
+      },
+      {
+        "reference": "6c4dfff2-8207-42cc-a3ef-0992873ddaf5",
+        "email": "Price_Lehner55@hotmail.com",
+        "firstName": "Odessa",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1097.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "c14e4f23-360f-4929-9c53-cb92734904d4",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming using Python",
+        "status": "Active",
+        "created_at": "2023-09-06T23:12:56.525Z",
+        "updated_at": "2023-09-07T08:14:34.919Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56a7ca7d-5465-4499-a932-2b5df436589b",
+        "name": "Web Development Fundamentals",
+        "description": "Build responsive websites using HTML, CSS, and JavaScript",
+        "status": "Inactive",
+        "created_at": "2023-09-06T17:01:58.414Z",
+        "updated_at": "2023-09-06T23:03:58.682Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c287279e-54c5-467e-8da3-ad668ac611fe",
+        "name": "Data Science Essentials",
+        "description": "Explore data analysis techniques using Python and R",
+        "status": "Pending",
+        "created_at": "2023-09-07T04:50:14.215Z",
+        "updated_at": "2023-09-07T07:13:18.579Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "753c6a7a-55ed-45af-a73f-12c97482ba79",
+        "name": "Digital Marketing Strategies",
+        "description": "Master the art of digital marketing and SEO",
+        "status": "Completed",
+        "created_at": "2023-09-07T07:44:16.288Z",
+        "updated_at": "2023-09-07T01:04:55.322Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0babb2c-3444-4fc3-8091-f9cad01f6cbb",
+        "name": "Business Management Principles",
+        "description": "Develop essential skills for effective business management",
+        "status": "Archived",
+        "created_at": "2023-09-06T11:15:51.645Z",
+        "updated_at": "2023-09-06T16:35:09.601Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "zoom_meeting": [
+      {
+        "id": "83d637f5-ec2b-4171-a983-67ea5c0da169",
+        "meeting_link": "https://zoom.us/j/1234567890",
+        "meeting_date": "2023-09-07T02:21:30.459Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-07T06:33:47.477Z",
+        "updated_at": "2023-09-06T18:23:36.519Z",
+        "course_id": "c287279e-54c5-467e-8da3-ad668ac611fe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "890246ce-dbac-421a-90d4-15c3433523ee",
+        "meeting_link": "https://zoom.us/j/0987654321",
+        "meeting_date": "2023-09-06T16:22:03.825Z",
+        "status": "Ongoing",
+        "created_at": "2023-09-06T10:15:33.424Z",
+        "updated_at": "2023-09-06T08:43:22.872Z",
+        "course_id": "a0babb2c-3444-4fc3-8091-f9cad01f6cbb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "95959e53-6f4a-4dfc-bd7e-95a19e2977aa",
+        "meeting_link": "https://zoom.us/j/5678901234",
+        "meeting_date": "2023-09-06T15:22:49.723Z",
+        "status": "Completed",
+        "created_at": "2023-09-07T04:28:05.728Z",
+        "updated_at": "2023-09-07T02:48:24.945Z",
+        "course_id": "56a7ca7d-5465-4499-a932-2b5df436589b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3783e771-58c6-48d8-9c6d-c846d0830e62",
+        "meeting_link": "https://zoom.us/j/4321098765",
+        "meeting_date": "2023-09-06T20:09:16.890Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-06T09:09:37.789Z",
+        "updated_at": "2023-09-06T15:21:14.651Z",
+        "course_id": "c287279e-54c5-467e-8da3-ad668ac611fe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5105524c-621c-4de4-b1db-f6f214bf64ee",
+        "meeting_link": "https://zoom.us/j/9876543210",
+        "meeting_date": "2023-09-06T20:51:07.954Z",
+        "status": "Postponed",
+        "created_at": "2023-09-06T17:11:57.964Z",
+        "updated_at": "2023-09-06T23:46:51.427Z",
+        "course_id": "56a7ca7d-5465-4499-a932-2b5df436589b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "f399d29d-8ea7-4e02-b15d-29a1313c72b3",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "status": "Enrolled",
+        "created_at": "2023-09-07T07:52:32.035Z",
+        "updated_at": "2023-09-07T06:16:17.480Z",
+        "course_id": "56a7ca7d-5465-4499-a932-2b5df436589b"
+      },
+      {
+        "id": "36c901e5-e9a6-440a-bef4-8029426d7076",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "status": "Graduated",
+        "created_at": "2023-09-06T20:47:26.858Z",
+        "updated_at": "2023-09-06T09:46:25.748Z",
+        "course_id": "c287279e-54c5-467e-8da3-ad668ac611fe"
+      },
+      {
+        "id": "c4679365-e600-4f1c-ba0c-3653082f6633",
+        "first_name": "Olivia",
+        "last_name": "Davis",
+        "status": "Suspended",
+        "created_at": "2023-09-07T00:06:34.281Z",
+        "updated_at": "2023-09-06T11:01:53.317Z",
+        "course_id": "56a7ca7d-5465-4499-a932-2b5df436589b"
+      },
+      {
+        "id": "e228cacc-fce5-4654-a400-b7275ccdd789",
+        "first_name": "Jacob",
+        "last_name": "Miller",
+        "status": "Withdrawn",
+        "created_at": "2023-09-06T22:06:29.875Z",
+        "updated_at": "2023-09-06T10:01:40.685Z",
+        "course_id": "c14e4f23-360f-4929-9c53-cb92734904d4"
+      },
+      {
+        "id": "b9d36db9-e263-4d40-ae7f-2d741ecdea13",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "status": "On Leave",
+        "created_at": "2023-09-06T23:18:47.574Z",
+        "updated_at": "2023-09-06T17:15:42.901Z",
+        "course_id": "a0babb2c-3444-4fc3-8091-f9cad01f6cbb"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "31886b16-6306-4715-b238-a4b76e26884f",
+        "date": "2023-09-07T02:34:30.209Z",
+        "status": "Present",
+        "created_at": "2023-09-06T09:57:24.630Z",
+        "updated_at": "2023-09-07T06:48:58.446Z",
+        "course_id": "c14e4f23-360f-4929-9c53-cb92734904d4",
+        "student_id": "b9d36db9-e263-4d40-ae7f-2d741ecdea13"
+      },
+      {
+        "id": "927de3b0-d277-4e7b-ae32-fcaa16524c63",
+        "date": "2023-09-07T04:19:38.992Z",
+        "status": "Absent",
+        "created_at": "2023-09-06T18:06:03.312Z",
+        "updated_at": "2023-09-06T09:22:26.736Z",
+        "course_id": "753c6a7a-55ed-45af-a73f-12c97482ba79",
+        "student_id": "36c901e5-e9a6-440a-bef4-8029426d7076"
+      },
+      {
+        "id": "85a2021f-d887-452c-86d0-967a2ad5f7ac",
+        "date": "2023-09-07T00:23:05.076Z",
+        "status": "Late",
+        "created_at": "2023-09-06T09:04:25.116Z",
+        "updated_at": "2023-09-06T19:03:37.278Z",
+        "course_id": "a0babb2c-3444-4fc3-8091-f9cad01f6cbb",
+        "student_id": "36c901e5-e9a6-440a-bef4-8029426d7076"
+      },
+      {
+        "id": "a108d210-b9ee-447d-9c87-1f6c8133d97e",
+        "date": "2023-09-06T23:08:17.219Z",
+        "status": "Excused",
+        "created_at": "2023-09-06T08:58:01.450Z",
+        "updated_at": "2023-09-06T15:13:45.511Z",
+        "course_id": "a0babb2c-3444-4fc3-8091-f9cad01f6cbb",
+        "student_id": "e228cacc-fce5-4654-a400-b7275ccdd789"
+      },
+      {
+        "id": "3a1a3a6a-4447-48e2-87a3-dd5d916bf49c",
+        "date": "2023-09-06T11:24:59.782Z",
+        "status": "Tardy",
+        "created_at": "2023-09-06T23:24:26.188Z",
+        "updated_at": "2023-09-06T11:56:31.155Z",
+        "course_id": "c14e4f23-360f-4929-9c53-cb92734904d4",
+        "student_id": "36c901e5-e9a6-440a-bef4-8029426d7076"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "816aa632-1394-4e32-ab47-a37b8efc3df8",
+        "email": "Kendall_Ratke@yahoo.com",
+        "firstName": "Sydney",
+        "lastName": "Fadel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81830039",
+        "tenantId": null
+      },
+      {
+        "reference": "0f301b08-298c-402d-8fc0-1a3d0d359b75",
+        "email": "Joshua77@hotmail.com",
+        "firstName": "Durward",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1036.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "837ae538-26d7-478d-8314-118e518188cc",
+        "email": "Violet.Daniel@yahoo.com",
+        "firstName": "Mariah",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62579930",
+        "tenantId": null
+      },
+      {
+        "reference": "5e7e28ed-3e03-4d71-856a-b5216b5639ed",
+        "email": "Dariana.Kerluke97@gmail.com",
+        "firstName": "Lydia",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51803854",
+        "tenantId": null
+      },
+      {
+        "reference": "4406d7fa-8744-466f-bd20-fc896b6607f0",
+        "email": "Cecilia_Ankunding-Medhurst58@yahoo.com",
+        "firstName": "Donnie",
+        "lastName": "Tremblay",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89717966",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "d2d59e68-a56e-419b-b3e5-37306ef2e4bc",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming and coding",
+        "status": "Active",
+        "created_at": "2023-09-06T15:21:18.353Z",
+        "updated_at": "2023-09-07T02:09:17.059Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e851dd5b-3ec1-47d5-b7a1-4fb010ebfd86",
+        "name": "Web Development Fundamentals",
+        "description": "Master the fundamentals of web development",
+        "status": "Inactive",
+        "created_at": "2023-09-06T16:20:36.759Z",
+        "updated_at": "2023-09-06T08:58:31.459Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7693bc8b-58b3-405a-b5a3-2b1b7efdc183",
+        "name": "Data Science Essentials",
+        "description": "Explore the world of data science and analytics",
+        "status": "Pending",
+        "created_at": "2023-09-06T18:35:20.735Z",
+        "updated_at": "2023-09-06T21:41:14.827Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c65107a0-ecf0-4fee-b8d7-afb046346014",
+        "name": "Digital Marketing Strategies",
+        "description": "Discover effective digital marketing strategies",
+        "status": "Completed",
+        "created_at": "2023-09-06T15:52:18.054Z",
+        "updated_at": "2023-09-06T13:58:06.240Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28ea2f50-1227-4d44-9e51-8637a0800038",
+        "name": "Project Management Basics",
+        "description": "Gain essential project management skills",
+        "status": "Cancelled",
+        "created_at": "2023-09-07T01:49:37.537Z",
+        "updated_at": "2023-09-07T01:24:07.803Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "zoom_meeting": [
+      {
+        "id": "0602906d-79e4-4ee6-9012-1d1a9ae7ad97",
+        "meeting_link": "https://zoom.us/j/123456789",
+        "meeting_date": "2023-09-07T02:14:42.040Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-06T10:02:38.992Z",
+        "updated_at": "2023-09-06T18:21:46.295Z",
+        "course_id": "28ea2f50-1227-4d44-9e51-8637a0800038",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "03ff7fe8-9184-49da-9d34-ce1bb55b0b38",
+        "meeting_link": "https://zoom.us/j/987654321",
+        "meeting_date": "2023-09-06T15:21:44.011Z",
+        "status": "Ongoing",
+        "created_at": "2023-09-06T23:55:59.415Z",
+        "updated_at": "2023-09-07T06:57:22.588Z",
+        "course_id": "28ea2f50-1227-4d44-9e51-8637a0800038",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e32583d-1a64-4218-9a79-c3d6d1af17d6",
+        "meeting_link": "https://zoom.us/j/456789123",
+        "meeting_date": "2023-09-06T15:25:59.427Z",
+        "status": "Ended",
+        "created_at": "2023-09-06T11:52:59.883Z",
+        "updated_at": "2023-09-06T18:18:42.692Z",
+        "course_id": "28ea2f50-1227-4d44-9e51-8637a0800038",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ede232f2-f898-4e0b-bbcf-7b34f57c4774",
+        "meeting_link": "https://zoom.us/j/321654987",
+        "meeting_date": "2023-09-07T05:13:15.042Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-07T00:30:29.707Z",
+        "updated_at": "2023-09-06T12:12:49.833Z",
+        "course_id": "e851dd5b-3ec1-47d5-b7a1-4fb010ebfd86",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0cc56dd-20cd-407a-a6a3-4101476e6161",
+        "meeting_link": "https://zoom.us/j/789123456",
+        "meeting_date": "2023-09-06T14:41:12.094Z",
+        "status": "Postponed",
+        "created_at": "2023-09-07T00:10:38.952Z",
+        "updated_at": "2023-09-06T15:56:15.552Z",
+        "course_id": "c65107a0-ecf0-4fee-b8d7-afb046346014",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "790c7cad-ff6e-4f18-943a-290cb778a891",
+        "first_name": "Emma",
+        "last_name": "Johnson",
+        "status": "Enrolled",
+        "created_at": "2023-09-06T09:15:00.324Z",
+        "updated_at": "2023-09-06T11:51:08.121Z",
+        "course_id": "e851dd5b-3ec1-47d5-b7a1-4fb010ebfd86"
+      },
+      {
+        "id": "a639e464-2e09-4880-bd61-7f4d18bbc0a9",
+        "first_name": "Liam",
+        "last_name": "Smith",
+        "status": "Graduated",
+        "created_at": "2023-09-06T11:58:15.761Z",
+        "updated_at": "2023-09-06T17:31:31.794Z",
+        "course_id": "28ea2f50-1227-4d44-9e51-8637a0800038"
+      },
+      {
+        "id": "5d5bedff-0dfb-4ee5-9317-59b0ecd7d7de",
+        "first_name": "Olivia",
+        "last_name": "Brown",
+        "status": "Suspended",
+        "created_at": "2023-09-06T17:50:02.483Z",
+        "updated_at": "2023-09-06T09:30:44.184Z",
+        "course_id": "e851dd5b-3ec1-47d5-b7a1-4fb010ebfd86"
+      },
+      {
+        "id": "16d5d6d4-d3a7-4c39-9a67-427effc6dce3",
+        "first_name": "Noah",
+        "last_name": "Davis",
+        "status": "Withdrawn",
+        "created_at": "2023-09-06T19:40:22.585Z",
+        "updated_at": "2023-09-07T00:03:19.598Z",
+        "course_id": "7693bc8b-58b3-405a-b5a3-2b1b7efdc183"
+      },
+      {
+        "id": "a95d48d9-b8fd-43f2-bee9-50375a503706",
+        "first_name": "Ava",
+        "last_name": "Wilson",
+        "status": "On Leave",
+        "created_at": "2023-09-06T12:27:16.508Z",
+        "updated_at": "2023-09-06T13:55:50.341Z",
+        "course_id": "28ea2f50-1227-4d44-9e51-8637a0800038"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "fef84b82-1c20-4a45-b5a1-736ad9ec77ed",
+        "date": "2023-09-06T20:30:53.147Z",
+        "status": "Present",
+        "created_at": "2023-09-06T23:28:23.827Z",
+        "updated_at": "2023-09-06T19:09:16.906Z",
+        "course_id": "e851dd5b-3ec1-47d5-b7a1-4fb010ebfd86",
+        "student_id": "16d5d6d4-d3a7-4c39-9a67-427effc6dce3"
+      },
+      {
+        "id": "01988285-7d52-447e-85f1-d879858392d0",
+        "date": "2023-09-07T03:04:24.254Z",
+        "status": "Absent",
+        "created_at": "2023-09-07T00:12:35.774Z",
+        "updated_at": "2023-09-06T10:18:57.637Z",
+        "course_id": "d2d59e68-a56e-419b-b3e5-37306ef2e4bc",
+        "student_id": "a639e464-2e09-4880-bd61-7f4d18bbc0a9"
+      },
+      {
+        "id": "e33fe89e-e3d7-4261-b9c0-3b9281d1a09e",
+        "date": "2023-09-06T23:09:47.866Z",
+        "status": "Late",
+        "created_at": "2023-09-07T02:55:35.107Z",
+        "updated_at": "2023-09-06T13:11:55.346Z",
+        "course_id": "e851dd5b-3ec1-47d5-b7a1-4fb010ebfd86",
+        "student_id": "790c7cad-ff6e-4f18-943a-290cb778a891"
+      },
+      {
+        "id": "c4425757-c2fb-4c05-8986-78d7d8528ffa",
+        "date": "2023-09-06T23:58:16.431Z",
+        "status": "Excused",
+        "created_at": "2023-09-06T14:10:06.370Z",
+        "updated_at": "2023-09-06T16:18:21.320Z",
+        "course_id": "c65107a0-ecf0-4fee-b8d7-afb046346014",
+        "student_id": "a95d48d9-b8fd-43f2-bee9-50375a503706"
+      },
+      {
+        "id": "778d0f1f-e935-413e-aa8b-dfe8c8de43e2",
+        "date": "2023-09-07T00:24:11.584Z",
+        "status": "Tardy",
+        "created_at": "2023-09-07T04:22:56.580Z",
+        "updated_at": "2023-09-06T09:50:59.040Z",
+        "course_id": "d2d59e68-a56e-419b-b3e5-37306ef2e4bc",
+        "student_id": "a639e464-2e09-4880-bd61-7f4d18bbc0a9"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "19e23775-4a92-4bb2-8fcd-6728f5ea5d6e",
+        "email": "Bette.Harvey@gmail.com",
+        "firstName": "Rudolph",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79772652",
+        "tenantId": null
+      },
+      {
+        "reference": "78ca5186-1841-4df8-8d03-a4f256645c1e",
+        "email": "Victoria36@gmail.com",
+        "firstName": "Nathanial",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/799.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b90189e3-2bba-4715-8570-b5e643795957",
+        "email": "Adelbert_OConner90@yahoo.com",
+        "firstName": "Elta",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70664556",
+        "tenantId": null
+      },
+      {
+        "reference": "9b3d3ec5-295e-4878-b1b3-0e03a1858451",
+        "email": "Greyson_Konopelski@hotmail.com",
+        "firstName": "Trenton",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8983608",
+        "tenantId": null
+      },
+      {
+        "reference": "6c293fee-8446-4495-b098-feadac84238d",
+        "email": "Constantin_Bashirian@yahoo.com",
+        "firstName": "Flavio",
+        "lastName": "Rau",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/895.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "b4d2fc92-626d-4cb2-ab92-28e7ded666ad",
+        "name": "Introduction to Programming",
+        "description": "Learn the basics of programming and develop problem-solving skills",
+        "status": "Open",
+        "created_at": "2023-09-06T12:58:55.505Z",
+        "updated_at": "2023-09-06T12:57:35.412Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "24dc5370-b9db-40ff-8d34-4ec90483e5b6",
+        "name": "Marketing Strategies for Small Businesses",
+        "description": "Discover effective marketing strategies to grow your small business",
+        "status": "Closed",
+        "created_at": "2023-09-07T06:30:14.765Z",
+        "updated_at": "2023-09-06T19:56:54.178Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc7f6bce-7162-475f-bb2b-eda4321b718f",
+        "name": "Financial Management for Entrepreneurs",
+        "description": "Understand key financial concepts and make informed business decisions",
+        "status": "Upcoming",
+        "created_at": "2023-09-06T14:42:58.439Z",
+        "updated_at": "2023-09-06T12:27:50.358Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "de788990-8989-4dec-8a1e-5da8b252ee79",
+        "name": "Artificial Intelligence and Machine Learning",
+        "description": "Explore the world of AI and ML and their applications in various industries",
+        "status": "Enrollment in Progress",
+        "created_at": "2023-09-06T16:05:48.084Z",
+        "updated_at": "2023-09-06T11:55:52.742Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "782d5518-7612-4b08-8ee7-317d7fb1416f",
+        "name": "Web Development Fundamentals",
+        "description": "Build responsive and interactive websites using HTML, CSS, and JavaScript",
+        "status": "Completed",
+        "created_at": "2023-09-07T02:10:10.249Z",
+        "updated_at": "2023-09-07T04:58:11.341Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "zoom_meeting": [
+      {
+        "id": "220f362e-0972-4913-b0ee-0fbaae68bd87",
+        "meeting_link": "https://zoom.us/meeting/123456789",
+        "meeting_date": "2023-09-07T03:22:04.651Z",
+        "status": "Scheduled",
+        "created_at": "2023-09-07T02:33:54.029Z",
+        "updated_at": "2023-09-06T22:42:29.655Z",
+        "course_id": "de788990-8989-4dec-8a1e-5da8b252ee79",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e37b6717-78e7-4025-aa3b-74d53271b5e2",
+        "meeting_link": "https://zoom.us/meeting/987654321",
+        "meeting_date": "2023-09-06T15:40:53.077Z",
+        "status": "In Progress",
+        "created_at": "2023-09-07T06:15:09.890Z",
+        "updated_at": "2023-09-06T14:37:11.858Z",
+        "course_id": "b4d2fc92-626d-4cb2-ab92-28e7ded666ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7ccb755-6c82-40f5-8135-e00801b62ce3",
+        "meeting_link": "https://zoom.us/meeting/567891234",
+        "meeting_date": "2023-09-06T19:19:16.461Z",
+        "status": "Completed",
+        "created_at": "2023-09-07T05:13:10.167Z",
+        "updated_at": "2023-09-07T06:45:31.918Z",
+        "course_id": "de788990-8989-4dec-8a1e-5da8b252ee79",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a65d149c-674a-46fe-b15d-0dc1a13ef5e2",
+        "meeting_link": "https://zoom.us/meeting/432198765",
+        "meeting_date": "2023-09-07T02:32:29.587Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-07T01:15:21.441Z",
+        "updated_at": "2023-09-06T17:39:47.615Z",
+        "course_id": "b4d2fc92-626d-4cb2-ab92-28e7ded666ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61032fd7-b432-4d1d-80ed-983decc8f076",
+        "meeting_link": "https://zoom.us/meeting/876543219",
+        "meeting_date": "2023-09-06T19:37:46.988Z",
+        "status": "Postponed",
+        "created_at": "2023-09-07T07:51:55.585Z",
+        "updated_at": "2023-09-06T09:26:30.712Z",
+        "course_id": "b4d2fc92-626d-4cb2-ab92-28e7ded666ad",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "student": [
+      {
+        "id": "778897d7-3c87-4d64-91c4-9b6412f3d061",
+        "first_name": "Emily",
+        "last_name": "Johnson",
+        "status": "Active",
+        "created_at": "2023-09-07T02:48:22.336Z",
+        "updated_at": "2023-09-06T20:26:57.987Z",
+        "course_id": "782d5518-7612-4b08-8ee7-317d7fb1416f"
+      },
+      {
+        "id": "efeef78b-85b2-48f1-b1d4-4a9feaabdc6f",
+        "first_name": "Daniel",
+        "last_name": "Brown",
+        "status": "Inactive",
+        "created_at": "2023-09-06T18:33:57.319Z",
+        "updated_at": "2023-09-06T15:15:56.038Z",
+        "course_id": "bc7f6bce-7162-475f-bb2b-eda4321b718f"
+      },
+      {
+        "id": "ab22d056-119a-4b72-abda-927b7cd795a0",
+        "first_name": "Olivia",
+        "last_name": "Davis",
+        "status": "Pending",
+        "created_at": "2023-09-06T23:26:21.570Z",
+        "updated_at": "2023-09-06T09:31:47.127Z",
+        "course_id": "782d5518-7612-4b08-8ee7-317d7fb1416f"
+      },
+      {
+        "id": "f0fae290-5aa8-49f3-bce5-bfef64ea8c47",
+        "first_name": "James",
+        "last_name": "Miller",
+        "status": "Suspended",
+        "created_at": "2023-09-07T07:09:55.141Z",
+        "updated_at": "2023-09-06T21:29:42.239Z",
+        "course_id": "b4d2fc92-626d-4cb2-ab92-28e7ded666ad"
+      },
+      {
+        "id": "f9997944-d997-4ab1-9635-7cf8186b527f",
+        "first_name": "Sophia",
+        "last_name": "Wilson",
+        "status": "Graduated",
+        "created_at": "2023-09-06T15:20:23.098Z",
+        "updated_at": "2023-09-06T17:23:45.381Z",
+        "course_id": "24dc5370-b9db-40ff-8d34-4ec90483e5b6"
+      }
+    ],
+    "attendance": [
+      {
+        "id": "c7e58f92-cd0f-4dde-acce-0d6be3971d7f",
+        "date": "2023-09-06T10:31:28.706Z",
+        "status": "Present",
+        "created_at": "2023-09-07T01:19:56.095Z",
+        "updated_at": "2023-09-06T12:22:51.823Z",
+        "course_id": "de788990-8989-4dec-8a1e-5da8b252ee79",
+        "student_id": "efeef78b-85b2-48f1-b1d4-4a9feaabdc6f"
+      },
+      {
+        "id": "6fc605df-b6a8-4105-a80e-3a9665fc457c",
+        "date": "2023-09-06T14:16:36.183Z",
+        "status": "Absent",
+        "created_at": "2023-09-07T00:01:22.445Z",
+        "updated_at": "2023-09-07T02:46:05.635Z",
+        "course_id": "b4d2fc92-626d-4cb2-ab92-28e7ded666ad",
+        "student_id": "efeef78b-85b2-48f1-b1d4-4a9feaabdc6f"
+      },
+      {
+        "id": "2cbe21d0-2a9c-466e-b746-f94e3b19cd60",
+        "date": "2023-09-06T09:06:42.965Z",
+        "status": "Late",
+        "created_at": "2023-09-06T20:23:38.585Z",
+        "updated_at": "2023-09-07T08:14:29.240Z",
+        "course_id": "de788990-8989-4dec-8a1e-5da8b252ee79",
+        "student_id": "f9997944-d997-4ab1-9635-7cf8186b527f"
+      },
+      {
+        "id": "6be59206-8954-420b-a05d-34f173ed1abb",
+        "date": "2023-09-06T10:28:37.018Z",
+        "status": "Excused",
+        "created_at": "2023-09-06T22:02:55.616Z",
+        "updated_at": "2023-09-06T14:03:51.665Z",
+        "course_id": "b4d2fc92-626d-4cb2-ab92-28e7ded666ad",
+        "student_id": "efeef78b-85b2-48f1-b1d4-4a9feaabdc6f"
+      },
+      {
+        "id": "52ae7e2f-8348-4348-a1da-9cca7db9479c",
+        "date": "2023-09-06T12:29:03.855Z",
+        "status": "Tardy",
+        "created_at": "2023-09-07T04:35:44.696Z",
+        "updated_at": "2023-09-06T17:23:36.511Z",
+        "course_id": "782d5518-7612-4b08-8ee7-317d7fb1416f",
+        "student_id": "f0fae290-5aa8-49f3-bce5-bfef64ea8c47"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "645edfe2-8c8f-46d5-a68a-b8b209b4e5ca",
+        "email": "Ottilie27@yahoo.com",
+        "firstName": "Florencio",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1142.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "65408e7a-7449-4cd9-b4a6-a8e2b6e32270",
+        "email": "Gunnar_Koss@hotmail.com",
+        "firstName": "Jaylen",
+        "lastName": "Heathcote",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/505.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ec6e5f74-eabd-455c-9414-fef8eac45744",
+        "email": "Caitlyn18@hotmail.com",
+        "firstName": "Salvador",
+        "lastName": "Bernhard",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99725330",
+        "tenantId": null
+      },
+      {
+        "reference": "84af2452-acc5-457d-bbd3-526df4665e13",
+        "email": "Blaise33@hotmail.com",
+        "firstName": "Gerda",
+        "lastName": "Kuhn-Olson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78341026",
+        "tenantId": null
+      },
+      {
+        "reference": "181e580a-1b4f-42dc-b435-7572b7fa23e7",
+        "email": "Caitlyn91@gmail.com",
+        "firstName": "Brant",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86714775",
+        "tenantId": null
+      }
+    ]
+  }
+]
